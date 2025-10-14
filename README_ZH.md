@@ -1,4 +1,5 @@
 # 🛰️ Loon4Streaming — 尽享流媒体生活
+> 语言：**中文**｜[English README](./README.md)
 
 > 适用对象：希望在 iOS / macOS 上通过 **Loon** 获得更顺滑、更可控的流媒体体验的用户。  
 > 本 README 针对仓库中的 `Loon4Streaming.conf` 文件编写，提供快速上手、策略组说明与常见问题排查。

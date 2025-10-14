@@ -1,4 +1,5 @@
 # 🛰️ Loon4Streaming — Enjoy the Streaming Life
+> Language: **English** | [中文说明](./README_ZH.md)
 
 > **Who this is for:** users who want a smoother, more controllable streaming experience on **Loon** for iOS / macOS.  
 > This README is for the `Loon4Streaming.conf` in this repo. It provides a quick start, notes on policy groups, and troubleshooting.
