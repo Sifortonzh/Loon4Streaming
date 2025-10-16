@@ -1,0 +1,19 @@
+# RuleSet: STARZ, OnlyFans, Fansly → United States
+# Save as: starz_onlyfans_fansly_US.list
+# Usage (in your Loon [Rule] section):
+# RULE-SET,https://raw.githubusercontent.com/Sifortonzh/Loon4Streaming/main/rules/starz_onlyfans_fansly_US.list,United States
+# Replace policy name if your group isn't exactly "United States".
+
+# --- STARZ ---
+DOMAIN-SUFFIX,starz.com
+DOMAIN-SUFFIX,starzplay.com
+DOMAIN-KEYWORD,starz
+DOMAIN-KEYWORD,starzplay
+
+# --- OnlyFans ---
+DOMAIN-SUFFIX,onlyfans.com
+DOMAIN-KEYWORD,onlyfans
+
+# --- Fansly ---
+DOMAIN-SUFFIX,fansly.com
+DOMAIN-KEYWORD,fansly
