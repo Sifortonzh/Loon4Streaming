@@ -1,0 +1,15 @@
+# RuleSet: OpenAI, ChatGPT, Claude → AI
+# Save as: ai_services.list
+# Usage (in your Loon [Rule] section):
+# RULE-SET,https://raw.githubusercontent.com/yourname/yourrepo/main/ai_services.list,AI
+# Replace policy name if your group isn't exactly "AI".
+
+# --- OpenAI & ChatGPT ---
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+
+# --- Claude / Anthropic ---
+DOMAIN-SUFFIX,anthropic.com

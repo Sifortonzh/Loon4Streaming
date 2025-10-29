@@ -1,0 +1,16 @@
+# RuleSet: Talkatone → United States
+# Save as: talkatone_US.list
+# Usage (in your Loon [Rule] section):
+# RULE-SET,https://raw.githubusercontent.com/yourname/yourrepo/main/talkatone_US.list,United States
+# Replace policy name if your group isn't exactly "United States".
+
+DOMAIN-SUFFIX,talkatone.com
+DOMAIN-SUFFIX,talkatone.me
+DOMAIN-SUFFIX,talkatone.co
+DOMAIN-SUFFIX,voipgrid.nl
+DOMAIN-SUFFIX,twilio.com
+DOMAIN-SUFFIX,twiliocdn.com
+DOMAIN-SUFFIX,twilio.org
+DOMAIN-SUFFIX,twilioassets.com
+USER-AGENT,Talkatone*
+PROCESS-NAME,com.talkatone.android
