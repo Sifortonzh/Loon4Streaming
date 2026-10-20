@@ -266,6 +266,18 @@ def validate_icons(group_lines, offline=False):
     return len(icons)
 
 
+def private_config(generated, private_text):
+    private_sections = sections(private_text)
+    if not private_sections.get('Remote Proxy'):
+        raise ValueError('No subscriptions in private source; refusing an empty private export')
+    chunks = re.split(r'(?m)^(\[[^]\n]+\])\s*$', generated)
+    for index in range(1, len(chunks), 2):
+        key = chunks[index][1:-1]
+        if key in ('Proxy', 'Remote Proxy'):
+            chunks[index + 1] = '\n' + '\n'.join(private_sections.get(key, [])) + '\n\n'
+    return ''.join(chunks)
+
+
 def main():
     parser = argparse.ArgumentParser(description='Generate Loon from Surge; default is preview only.')
     parser.add_argument('--source', type=Path, default=SURGE)
@@ -317,21 +329,13 @@ def main():
         private_text = args.private_profile.read_text(encoding='utf-8')
         if args.private_profile.is_symlink() or '[Remote Proxy]' not in private_text:
             raise ValueError('Expected a regular local Loon profile with Remote Proxy section')
-        private_sections = sections(private_text)
-        remote = private_sections.get('Remote Proxy', [])
-        if not remote:
-            raise ValueError('No subscriptions in private source; refusing an empty private export')
-        chunks = re.split(r'(?m)^(\[[^]\n]+\])\s*$', generated)
-        for index in range(1, len(chunks), 2):
-            key = chunks[index][1:-1]
-            if key in ('Proxy', 'Remote Proxy'):
-                chunks[index + 1] = '\n' + '\n'.join(private_sections.get(key, [])) + '\n\n'
+        private_generated = private_config(generated, private_text)
         private_output = LOCAL / 'Loon4Streaming.private.conf'
         if private_output.exists():
             backup = LOCAL / 'backups' / datetime.now().strftime('%Y%m%d-%H%M%S-%f')
             backup.mkdir(parents=True, mode=0o700)
             shutil.copy2(private_output, backup / private_output.name)
-        write(private_output, ''.join(chunks), private=True)
+        write(private_output, private_generated, private=True)
         print('Private import profile saved locally: ' + str(private_output))
     if args.publish:
         if subprocess.check_output(['git', '-C', str(ROOT), 'diff', '--cached', '--name-only'], text=True).strip():

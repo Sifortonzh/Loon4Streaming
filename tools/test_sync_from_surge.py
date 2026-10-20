@@ -50,6 +50,18 @@ class ConverterTests(unittest.TestCase):
         self.assertIn('DOMAIN-SUFFIX,apple.com,Apple', output)
         self.assertIn('DOMAIN,exact.example,Apple', output)
 
+    def test_private_nodes_never_change_public_output_or_copy_mitm(self):
+        public = '[General]\nip-mode = ipv4-only\n[Proxy]\n[Remote Proxy]\nExample = https://example.com/sub,enabled=false\n[Remote Filter]\nSub-ALL = NameRegex,FilterKey=".+"\n[Rule]\nFINAL,DIRECT\n'
+        private = '[Proxy]\nLocal = Trojan,private.test,443,"private-password"\n[Remote Proxy]\nMyProvider = https://private.test/loon?token=private-token,enabled=true\n[MITM]\nca-p12 = private-certificate\n[Plugin]\nhttps://private.test/plugin\n'
+        merged = sync.private_config(public, private)
+        self.assertIn('private-token', merged)
+        self.assertIn('private-password', merged)
+        self.assertNotIn('private-token', public)
+        self.assertNotIn('private-certificate', merged)
+        self.assertNotIn('[Plugin]', merged)
+        self.assertIn('[Remote Filter]', merged)
+        self.assertIn('FINAL,DIRECT', merged)
+
     def test_real_generated_profile(self):
         path = sync.OUTPUT
         if not path.exists() or not (sync.ROOT / 'validation-report.json').exists():
