@@ -1,0 +1,387 @@
+{
+  "source_sha256": "dcfcd6db23f26150dbc451b061c5c3a07e6d37cbd4f5c056404b525fef389a7c",
+  "groups": [
+    "Privilege",
+    "Group",
+    "🇭🇰Hong Kong",
+    "🇺🇸United States",
+    "🇸🇬Singapore",
+    "🇯🇵Japan",
+    "🇨🇳Taiwan",
+    "🇰🇷South Korea",
+    "🇬🇧United Kingdom",
+    "🇩🇪Germany",
+    "🇫🇷France",
+    "🇦🇺Australia",
+    "🇨🇦Canada",
+    "🇲🇴Macau",
+    "🇮🇳India",
+    "🇲🇾Malaysia",
+    "🇵🇭Philippines",
+    "🇺🇳Rare Areas",
+    "PayPal",
+    "Telegram",
+    "Amazon",
+    "ChatGPT",
+    "Twitter",
+    "Google",
+    "Netflix",
+    "HBO Max",
+    "Disney+",
+    "YouTube",
+    "Hayu",
+    "Paramount+",
+    "Prime Video",
+    "GitHub",
+    "TikTok",
+    "Meta",
+    "Finance",
+    "YOUKU",
+    "WeTV",
+    "PikPak",
+    "Bilibili",
+    "iQIYI",
+    "WeChat",
+    "Apple"
+  ],
+  "rule_count": 130027,
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_Domain.list",
+      "policy": "Apple",
+      "rules": 1560,
+      "sha256": "3af2aab31585ae8420279cc645917e48ee04d0db024bd3702ebd245541768414",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list",
+      "policy": "Apple",
+      "rules": 43,
+      "sha256": "ee24445288a5a05486d8a54d07cd0c15e620674e6282b23f2194c0e3c6f04a94",
+      "process_rules_omitted": 13
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list",
+      "policy": "WeChat",
+      "rules": 332,
+      "sha256": "01e55617280a7b03db13397fcd2fe4bb3be559f728145fb1fbb054036d75d0bc",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBiliIntl/BiliBiliIntl.list",
+      "policy": "Bilibili",
+      "rules": 1,
+      "sha256": "ccb061a3327eb9e49ff13a90a628577389c89d0c67e0a930be2e4f174434b0ad",
+      "process_rules_omitted": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list",
+      "policy": "Bilibili",
+      "rules": 127,
+      "sha256": "8537129301d5e4040d9f2b2255217458a16c96eef850ec22367352c512bc3988",
+      "process_rules_omitted": 6
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list",
+      "policy": "PayPal",
+      "rules": 248,
+      "sha256": "4ffb6f94d2f1eff835c24b533c3d1d6e0c5a4cfbc32740fa9c32315ae218fd18",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list",
+      "policy": "Telegram",
+      "rules": 41,
+      "sha256": "3b375bee8b2ff16d6c955804a5a3638e6e8fdfcc58d209506a928bdd4cc9891a",
+      "process_rules_omitted": 5
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
+      "policy": "REJECT",
+      "rules": 965,
+      "sha256": "3aa8cec471f436156921bd33516bc14ea7535e796bba421aee8e37cac40a8387",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list",
+      "policy": "GitHub",
+      "rules": 31,
+      "sha256": "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list",
+      "policy": "Twitter",
+      "rules": 33,
+      "sha256": "64c836f2431ca0d4728cc545bb74280ee50c886e346040012e6cdd2f3eee3f97",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list",
+      "policy": "TikTok",
+      "rules": 15,
+      "sha256": "34bbacbbb268ef20ace40dfeb3a5798c8a239b6407897f276b14398c7cf78a2b",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list",
+      "policy": "Google",
+      "rules": 698,
+      "sha256": "4b08fd3ef47e2668d2a4bb79777773e2408394fdda60ac36014e1a4d3456ba6f",
+      "process_rules_omitted": 5
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Binance/Binance.list",
+      "policy": "Finance",
+      "rules": 12,
+      "sha256": "034b1730ac0adb39a8a88685d6f6864a7070a14d722acbf8f3859806b28b92a4",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list",
+      "policy": "YouTube",
+      "rules": 190,
+      "sha256": "42274e143447066e26e1ebbf21ae03ce6efb40827f41e2775a84fb16d390713d",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list",
+      "policy": "Netflix",
+      "rules": 1157,
+      "sha256": "aa03f015949e8f6f981d90a7d8b1acf7e88472ee48601632bd964b0bb740f8aa",
+      "process_rules_omitted": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list",
+      "policy": "Disney+",
+      "rules": 173,
+      "sha256": "d0cfd6aee89d9d3075aef9dfadd98a2a3c6a2dba487f5091c801d1bcd70e9884",
+      "process_rules_omitted": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list",
+      "policy": "Prime Video",
+      "rules": 27,
+      "sha256": "f5b07fda0d55df6b8f70ed4ad7ecbe7e501bfe0f9cf469528d611313a3ad03c5",
+      "process_rules_omitted": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ParamountPlus/ParamountPlus.list",
+      "policy": "Paramount+",
+      "rules": 10,
+      "sha256": "cac7d967e7bcb6ccb080451e43b6de264706f749ee1195446ef07d3ccd38e2a3",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Youku/Youku.list",
+      "policy": "YOUKU",
+      "rules": 37,
+      "sha256": "fe46c7fb82514f089c404aa60bc856aa524f4ef1ed27a9c49217ad4671d424ce",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/WeTV/WeTV.list",
+      "policy": "WeTV",
+      "rules": 8,
+      "sha256": "b03ac23c4235bcd31e11c7944fb56ddfa2cc32a7a24c38c47edf6a52a2d4772f",
+      "process_rules_omitted": 2
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/iQIYI/iQIYI.list",
+      "policy": "iQIYI",
+      "rules": 62,
+      "sha256": "153f19cd26fe02085ba506c2882756ebdc0a05ee31d40563f8165ad099e50010",
+      "process_rules_omitted": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Streaming/HBOMax.list",
+      "policy": "HBO Max",
+      "rules": 91,
+      "sha256": "7e92d8c79198c10e690ac536a0814032f69c4e4b53f64f9af3a7efe60b2d7973",
+      "process_rules_omitted": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Streaming/hayu.list",
+      "policy": "Hayu",
+      "rules": 2,
+      "sha256": "1a9922d434c959d406463358e826f237722456ddc02c2b7cc59696aa1851ad32",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Streaming/amcplus.list",
+      "policy": "🇺🇸United States",
+      "rules": 2,
+      "sha256": "bc11da7b1fd82cc5aa39dcf65944f3c543e3a0398b15e6e84d6dd3cebe8e19d5",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Finance/PayPal.list",
+      "policy": "PayPal",
+      "rules": 7,
+      "sha256": "082f8a2cf45261385f98c29582078e4a89d391cce8c1328f875707c4ba427d20",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Social/Google.list",
+      "policy": "Google",
+      "rules": 47,
+      "sha256": "73ed8935cbd09137de8dd015dacb8de76e833f5194bfc64ca9e548dcd18cb582",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Social/Twitter.list",
+      "policy": "Twitter",
+      "rules": 11,
+      "sha256": "fd4d7c973e8eef34331d76cbe229a9a13f70eef516969cf3a3ea8c04ab211118",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/AI/openai.list",
+      "policy": "ChatGPT",
+      "rules": 27,
+      "sha256": "7be52aa1a2d323078adfd4ec3954ba58ff0e632c86e12275b5c2957a2503e6fe",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Social/Fansly.list",
+      "policy": "🇨🇳Taiwan",
+      "rules": 11,
+      "sha256": "6761acf012ab506ab2212e730a7f170fd0fb2498e7634ecc579dfb6fd0095bd5",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Social/OnlyFans.list",
+      "policy": "🇨🇳Taiwan",
+      "rules": 5,
+      "sha256": "97d20856201cc47911fdc821ce86adaed88e8c83fb911f5aac6e2f30596f52fd",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Social/aol.list",
+      "policy": "🇺🇸United States",
+      "rules": 4,
+      "sha256": "660f51b7593e4d3823f1c3effd1b0ec86c7c65fcb5aaa2442ded72b66f10f11c",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Social/proton.list",
+      "policy": "Group",
+      "rules": 4,
+      "sha256": "9bb1228835a70580e0356c1e36a4450633f9f60b9aa56f5bbce8ba32f116793c",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Social/yandex.list",
+      "policy": "🇺🇳Rare Areas",
+      "rules": 13,
+      "sha256": "5333de58011702fb40b161c32529a5c0074575401427c5c5ac9e244871ea651e",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/main/rules/Country/HK/netflav.list",
+      "policy": "🇭🇰Hong Kong",
+      "rules": 8,
+      "sha256": "59da6f4a2c220955d170544ee7851abc777c2a7b1f8e28476498f258ddcfb400",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Country/HK/JAP.list",
+      "policy": "🇭🇰Hong Kong",
+      "rules": 107,
+      "sha256": "2bc7b5813efbe750644b1a09031bf23aec42f6056e15f00dc62a50f6c749f916",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Social/Meta.list",
+      "policy": "Meta",
+      "rules": 16,
+      "sha256": "d5d2643dc46dd7f52c4636eb98d9c22f861e14a5a8d50f7d0abe8a0964ca2452",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Country/US/talkatone.list",
+      "policy": "🇺🇸United States",
+      "rules": 9,
+      "sha256": "43555fbc3de921c9a84d3e28871080f3ae87f7df34728083003d00ea2d8cfe16",
+      "process_rules_omitted": 1
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Country/HK/tmdb.list",
+      "policy": "🇭🇰Hong Kong",
+      "rules": 3,
+      "sha256": "3c3a69a4fc993692fd17d5108ae2dc30ed650e5e48bb0dae25039314a7ed2636",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Country/HK/hk.list",
+      "policy": "🇭🇰Hong Kong",
+      "rules": 5,
+      "sha256": "deca79c395596eea8d2bd6c2441ac608bc541e1cd79c7c41288f2dfbf512f6f4",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Country/SG/pikpak.list",
+      "policy": "PikPak",
+      "rules": 7,
+      "sha256": "738ce2212f32edadd2f5840cc8fc384f2de4cf00ec7745264ab9657f6ca1d1a8",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Finance/bitget.list",
+      "policy": "Finance",
+      "rules": 4,
+      "sha256": "15b6cef9ed3946a24c1f6bfda3c1f8564a6ed633b7386bef588eb37cafc7d8d5",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Finance/bybit.list",
+      "policy": "Finance",
+      "rules": 4,
+      "sha256": "cdc008594354e72659ac8f0fbb3b2d139f5218e02166007eace19f965ce4217b",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Finance/safepal.list",
+      "policy": "Finance",
+      "rules": 2,
+      "sha256": "0c2e2650fed19ceca541e5aca5144ef32479dc0ff7188be00fba9f997cb9e592",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Finance/okx.list",
+      "policy": "Finance",
+      "rules": 5,
+      "sha256": "9de63a165da4b55152d935fe9ea20156f1fd3a23f810658d31b14f2831af4fae",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Country/Direct/DIRECT.list",
+      "policy": "DIRECT",
+      "rules": 21,
+      "sha256": "0dfdde411123fbc65aa4679ca35f522f9499c545500ba7adee7be4b645a3b655",
+      "process_rules_omitted": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list",
+      "policy": "DIRECT",
+      "rules": 440,
+      "sha256": "d82e7315457f8aa1c4649df09d560e54dbc19757dc4fc5d8d2df0bd78a373079",
+      "process_rules_omitted": 6
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax_All.list",
+      "policy": "DIRECT",
+      "rules": 123382,
+      "sha256": "6db4589680c13452a2239347d8faec3d4ac0cef4c0800f5d8c6f2ed8276dd995",
+      "process_rules_omitted": 12
+    }
+  ],
+  "omitted_local_macos_process_rules": 3,
+  "limitations": [
+    "Domain rules take precedence over IP rules in the Loon engine.",
+    "url-test selects lowest test latency; it does not reproduce Surge smart or test streaming unlock.",
+    "Run on-device subscription updates, filter checks and playback checks after import."
+  ],
+  "verified_icons": 25,
+  "output_sha256": "4f1ee52e2e22efc89ac450bf9a3681bc212cf4ced6f1ce19c82f089968898bf2"
+}

@@ -1,2 +1,5 @@
 .DS_Store
 ._*
+.loon-sync/
+__pycache__/
+*.pyc
