@@ -44,7 +44,7 @@
     "WeChat",
     "Apple"
   ],
-  "rule_count": 130027,
+  "rule_count": 130026,
   "sources": [
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_Domain.list",
@@ -308,8 +308,8 @@
     {
       "url": "https://raw.githubusercontent.com/Sifortonzh/Config4Streaming/refs/heads/main/rules/Country/HK/tmdb.list",
       "policy": "🇭🇰Hong Kong",
-      "rules": 3,
-      "sha256": "3c3a69a4fc993692fd17d5108ae2dc30ed650e5e48bb0dae25039314a7ed2636",
+      "rules": 2,
+      "sha256": "32def5cf6d04922e49ae4e9278f2281405baad57a1a8ac6e24e69148d64975ff",
       "process_rules_omitted": 0
     },
     {
@@ -383,5 +383,5 @@
     "Run on-device subscription updates, filter checks and playback checks after import."
   ],
   "verified_icons": 25,
-  "output_sha256": "4f1ee52e2e22efc89ac450bf9a3681bc212cf4ced6f1ce19c82f089968898bf2"
+  "output_sha256": "669f13bc534c965e77b189528adbe2c2b4625512cb2f529495056ca30cac5ec6"
 }
